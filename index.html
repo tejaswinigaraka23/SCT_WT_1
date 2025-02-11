@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Montserrat:wght@600&family=Lora:wght@400&display=swap" rel="stylesheet">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to external CSS file -->
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home"><i class="bi bi-house"></i> Home</a></li>
+            <li><a href="#about"><i class="bi bi-info-circle"></i> About</a></li>
+            <li><a href="#contact"><i class="bi bi-telephone"></i> Contact</a></li>
+            <li><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">More Info</button></li>
+        </ul>
+    </nav>
+    
+    <!-- Hero Section with More Text -->
+    <div id="home" class="hero">
+        <div>
+            <h1>Welcome to SkillCraftTechnology Internship Program!</h1>
+            <p>Step into the world of innovation and technology with SkillCraftTechnology. Our internship program is designed to equip you with hands-on experience, real-world projects, and expert mentorship to help you excel in your career.</p>
+            <p>Why Join SkillCraftTechnology?</p>
+             <ul>
+                <li>Work on Live Projects</li>
+                <li>Learn from Industry Experts</li>
+                <li>Gain Practical Knowledge</li>
+                <li>Get Certified & Boost Your Resume</li>
+             </ul>   
+                
+            <p>Kickstart your career with us and become industry-ready. Apply now and shape your future with SkillCraftTechnology!"</p>
+        </div>
+    </div>
+
+    <div id="about" class="section">
+        <h2>About Us</h2>
+        
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card">
+                    <img src="./img1.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Internship Activities</h5>
+                        <p class="card-text">.......</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img2.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Learning & Development</h5>
+                        <p class="card-text">.........</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Team & Culture</h5>
+                        <p class="card-text">........</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <img src="./img4.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Future Growth and Opputunities</h5>
+                        <p class="card-text">........</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">More Information</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    No More.......
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>Email: garakatejaswini13@gmail.com | Phone: +916304787664</p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
+</body>
+</html>
